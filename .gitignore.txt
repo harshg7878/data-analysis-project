@@ -1,0 +1,46 @@
+# Exclude Python byte-code and cache directories
+__pycache__
+.py[cod]
+$py.class
+
+# Ignore compiled extensions
+.so
+
+# Build and distribution artifacts
+build
+dist
+.egg-info
+.egg
+.whl
+.tar.gz
+
+# Virtual environment folders
+venv
+.env
+.env
+.venv
+ENV
+
+# Log files, databases and coverage reports
+.log
+.sqlite3
+htmlcov
+.coverage
+.cache
+pytest_cache
+.cover
+
+# IDEeditor settings (not part of code logic)
+.vscode
+.idea
+.sublime-
+.tmproj
+.ipynb_checkpoints
+
+# Operating-system specific
+.DS_Store
+Thumbs.db
+
+# If you don’t plan to include generated charts in this repo,
+# you can exclude the output folder
+output_charts
